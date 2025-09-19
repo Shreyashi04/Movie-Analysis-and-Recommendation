@@ -21,7 +21,7 @@ This project demonstrates how **NLP techniques** can be applied to real-world da
 - Visualizations: Genre trends, year-wise content growth, country distribution  
 - TF-IDF preprocessing on movie descriptions  
 - Cosine similarity for recommendations  
-- Enter a movie → get top N similar movies  
+- Enter a movie → get top 10 similar movies  
 
 ---
 
@@ -41,7 +41,7 @@ This project demonstrates how **NLP techniques** can be applied to real-world da
    - Train TF-IDF model  
    - Generate recommendations
    - Recommended Movies for 'Inception':
-
+```
       Til Death Do Us Part
       Apollo 18
       Incarnate
@@ -52,15 +52,16 @@ This project demonstrates how **NLP techniques** can be applied to real-world da
       Altered Carbon
       Dark
       Maniac
+```
 
 ---
 
 ## 📊 Insights  
 
-- Netflix’s growth trend over the years  
-- Top genres worldwide  
-- Country-wise content distribution  
-- WordCloud of movie descriptions  
+- Content type distribution: Movies vs TV Shows  
+- Ratings distribution of content  
+- Top content-producing countries  
+- Recent years’ release trends  
 
 ---
 
