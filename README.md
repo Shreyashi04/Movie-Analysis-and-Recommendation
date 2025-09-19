@@ -79,9 +79,11 @@ This project is licensed under the **MIT License**.
 ---
 
 ## 📂 Project Structure  
+```
 Movie-Analysis-and-Recommendation-/
 ├── Netflix_movie_recommendation.ipynb # Main Colab notebook
 └── README.md # Documentation
+```
 
 
 
