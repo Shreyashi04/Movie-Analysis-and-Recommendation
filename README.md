@@ -1,34 +1,26 @@
-# 🎬 Netflix Movie Data Analysis & Recommendation System  
+# 🎬 Netflix Movie Data Analysis 
 
-This project analyzes the **Netflix dataset** and builds a **content-based recommendation system** using **Natural Language Processing (NLP)** — implemented entirely in a **Google Colab notebook**.  
-
-It provides insights into Netflix’s catalog and recommends movies similar to a given title using **TF-IDF vectorization** and **cosine similarity**.  
-
+This project performs an exploratory data analysis (EDA) on the Netflix dataset using a Google Colab notebook.
+It focuses exclusively on understanding patterns, trends, and insights from Netflix’s catalog.
 ---
 
 ## 📌 Description  
 
-The notebook explores Netflix’s catalog to uncover trends such as most common genres, year-wise growth, and global distribution of content.  
-It then applies **TF-IDF** on descriptions, genres, and cast information to generate vector representations and uses **cosine similarity** to recommend similar movies.  
-
-This project demonstrates how **NLP techniques** can be applied to real-world datasets in the entertainment industry for recommendation systems.  
-
----
+This notebook performs an in-depth exploratory data analysis of the Netflix dataset to understand the structure, trends, and patterns within the platform’s global catalog.
+The analysis uses data cleaning, aggregation, and visualizations to uncover meaningful insights about how Netflix content varies across genres, countries, ratings, and time.
 
 ## ✨ Features  
 
 - Exploratory Data Analysis (EDA) of Netflix dataset  
 - Visualizations: Genre trends, year-wise content growth, country distribution  
-- TF-IDF preprocessing on movie descriptions  
-- Cosine similarity for recommendations  
-- Enter a movie → get top 10 similar movies  
+
 
 ---
 
 ## 🛠 Tech Stack  
 
 - **Google Colab** (Python 3.x)  
-- **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn, nltk  
+- **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn
 
 ---
 
@@ -37,22 +29,8 @@ This project demonstrates how **NLP techniques** can be applied to real-world da
 1. Open the notebook in **Google Colab**.  
 2. Upload the dataset (`netflix_titles.csv`) when prompted.  
 3. Run all cells to:  
-   - Perform dataset analysis  
-   - Train TF-IDF model  
-   - Generate recommendations
-   - Recommended Movies for 'Inception':
-```
-      Til Death Do Us Part
-      Apollo 18
-      Incarnate
-      Black Mirror
-      Transformers: Cyberverse
-      Abby Sen
-      Candyflip
-      Altered Carbon
-      Dark
-      Maniac
-```
+   - Perform dataset analysis
+   - Generate proper Tables
 
 ---
 
